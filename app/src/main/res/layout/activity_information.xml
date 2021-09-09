@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to Use?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/FirebaseUI.Button.AccountChooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:onClick="ed"
+            android:text="Encrypt / Decrypt"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Instructions to Encrypt/Decrypt"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/FirebaseUI.Button.AccountChooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:onClick="ud"
+            android:text="Upload / Download"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Instructions to Upload/Download" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/FirebaseUI.Button.AccountChooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:onClick="lex"
+            android:text="Extensions List"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="List of Extenions that loss-lessly Encrypt / Decrypt" />
+
+    </LinearLayout>
+
+</LinearLayout>

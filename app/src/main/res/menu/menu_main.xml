@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.majpro.MainActivity">
+
+    <item
+        android:id="@+id/acc_set"
+        android:icon="@drawable/iconfinder_gear_1055051"
+        android:title="@string/AccSet" />
+    <item
+        android:id="@+id/info1"
+        android:icon="@drawable/in"
+        android:title="@string/Information" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="@string/exit" />
+
+</menu>
+
+
+
+
